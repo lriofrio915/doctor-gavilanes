@@ -69,7 +69,7 @@ const Header = () => {
                 </div>
                 <nav
                     className={`${isToggleMenuOpen ? 'block' : 'hidden'} h-screen md:w-full ${position === 'right' ? 'justify-end' : position === 'left' ? 'justify-start' : 'justify-center'
-                        } w-auto overflow-y-auto dark:text-slate-200 md:mx-5 md:flex md:h-auto md:items-center md:overflow-visible`}
+                        } w-auto overflow-y-auto dark:text-slate-200 md:mx-5 md:flex md:h-auto md:items-center md:overflow-visible md:border-none border-t dark:border-slate-600 mt-3`}
                     aria-label="Main navigation"
                 >
                     <ul className="flex w-full flex-col pt-8 text-xl md:w-auto md:flex-row md:self-center md:pt-0 md:text-base">
@@ -88,7 +88,7 @@ const Header = () => {
                                                 className={`${isDropdownOpen[index] ? 'block' : 'md:hidden'
                                                     } rounded pl-4 font-medium drop-shadow-xl md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md dark:md:bg-slate-900/90`}
                                             >
-                                                {/* {links.map(({ label: label2, href: href2 }, index2) => (
+                                                {links.map(({ label: label2, href: href2 }: any, index2: any) => (
                                                     <li key={`item-link-${index2}`}>
                                                         <Link
                                                             className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b dark:hover:bg-gray-700 md:hover:bg-gray-200"
@@ -100,7 +100,7 @@ const Header = () => {
                                                             {label2}
                                                         </Link>
                                                     </li>
-                                                ))} */}
+                                                ))}
                                             </ul>}
                                         </>
                                     ) : (
@@ -118,7 +118,7 @@ const Header = () => {
                 </nav>
                 <div
                     className={`${isToggleMenuOpen ? 'block' : 'hidden'
-                        } fixed bottom-0 left-0 w-full justify-end p-3 md:static md:mb-0 md:flex md:w-auto md:self-center md:p-0`}
+                        } fixed bottom-0 left-0 w-full justify-end p-3 md:static md:mb-0 md:flex md:w-auto md:self-center md:p-0 md:border-none border-t dark:border-slate-600`}
                 >
                     <div className="flex w-full items-center justify-between md:w-auto">
                         {showToggleTheme && <ToggleDarkMode />}

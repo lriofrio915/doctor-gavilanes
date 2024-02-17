@@ -2,7 +2,8 @@ import {
     IconBrandFacebook,
     IconBrandInstagram,
     IconBrandLinkedin,
-    IconBrandTwitter
+    IconBrandTwitter,
+    IconChevronDown
 } from '@tabler/icons-react';
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 
@@ -22,50 +23,30 @@ export const announcementData: AnnouncementProps = {
 // Header data
 export const headerData: HeaderProps = {
     links: [
-        /* {
-            label: 'Pages',
+        {
+            label: 'Cursos',
             icon: IconChevronDown,
             links: [
                 {
-                    label: 'Services',
-                    href: '/services',
+                    label: 'Freemium',
+                    href: '/cursos-premium',
                 },
                 {
-                    label: 'Pricing',
-                    href: '/pricing',
-                },
-                {
-                    label: 'About us',
-                    href: '/about',
-                },
-                {
-                    label: 'Contact us',
-                    href: '/contact',
-                },
-                {
-                    label: 'FAQs',
-                    href: '/faqs',
-                },
-                {
-                    label: 'Terms & Conditions',
-                    href: '/terms',
-                },
-                {
-                    label: 'Privacy Policy',
-                    href: '/privacy',
+                    label: 'Premium',
+                    href: '/cursos-premium',
                 },
             ],
-        }, */
-        {
+        },
+        /* {
             label: 'Inicio',
             href: '/',
-        },
+        }, */
         {
             label: 'Perfil',
             href: '/perfil',
         },
         {
-            label: 'Servicio',
+            label: 'Servicios',
             href: '/servicios',
         },
         {
