@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
+import Hero from "~/components/widgets/Hero";
 import { SITE } from "~/config";
-//import Hero from "../src/components/widgets/Hero";
 
 export const metadata: Metadata = {
   title: SITE.title,
@@ -8,6 +8,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <h1>Hola Mundo</h1>
+    <>
+      <h1>Hola Mundo</h1>
+      <Hero />
+    </>
   );
 }

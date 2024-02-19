@@ -60,3 +60,9 @@ type HeaderProps = {
     showRssFeed?: boolean;
     position?: 'center' | 'right' | 'left';
 };
+
+type Image = {
+    link?: string;
+    src: string | StaticImageData;
+    alt: string;
+};
