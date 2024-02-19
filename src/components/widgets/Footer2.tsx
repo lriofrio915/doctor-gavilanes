@@ -1,3 +1,4 @@
+import { JSXElementConstructor, PromiseLikeOfReactNode, ReactElement, ReactNode, ReactPortal } from 'react';
 import { footerData2 } from '~/shared/data/global.data';
 
 const Footer2 = () => {
@@ -12,11 +13,11 @@ const Footer2 = () => {
                         className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1"
                     >
                         <div className="mb-2 font-medium text-gray-800 dark:text-gray-300">{title}</div>
-                        {/* {texts?.map((text, index2) => (
+                        {texts?.map((text: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined, index2: any) => (
                             <p key={`item-text-${index2}`} className="text-gray-600 dark:text-slate-400">
                                 {text}
                             </p>
-                        ))} */}
+                        ))}
                     </div>
                 ))}
                 <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
@@ -28,6 +29,7 @@ const Footer2 = () => {
                                     className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                                     aria-label={label}
                                     href={href}
+                                    target='_blank'
                                 >
                                     {Icon && <Icon className="h-5 w-5" />}
                                 </a>
