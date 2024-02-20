@@ -1,14 +1,5 @@
+import { StaticImageData } from 'next/image';
 import { ReactElement } from 'react';
-
-// WIDGETS
-type HeroProps = {
-    title?: string | ReactElement;
-    subtitle?: string | ReactElement;
-    tagline?: string;
-    callToAction?: CallToActionType;
-    callToAction2?: CallToActionType;
-    image?: Image;
-};
 
 type CallToActionType = {
     text?: string;
@@ -23,6 +14,33 @@ type LinkOrButton = {
     linkClass?: string;
     iconClass?: string;
 };
+type Image = {
+    link?: string;
+    src: string | StaticImageData;
+    alt: string;
+};
+type ToggleMenuProps = {
+    handleToggleMenuOnClick: MouseEventHandler<HTMLButtonElement>;
+    isToggleMenuOpen: boolean;
+};
+// WIDGETS
+type HeroProps = {
+    title?: string | ReactElement;
+    subtitle?: string | ReactElement;
+    tagline?: string;
+    callToAction?: CallToActionType;
+    callToAction2?: CallToActionType;
+    image?: Image;
+};
+
+type FAQsProps = Widget & {
+    header?: Header;
+    items?: Array<Item>;
+    columns?: number;
+    tabs?: Array<Tab>;
+    callToAction?: CallToActionType;
+};
+
 
 type CallToActionProps = Widget & {
     title: string;
@@ -31,16 +49,12 @@ type CallToActionProps = Widget & {
     items?: Array<Item>;
 };
 
-type ToggleMenuProps = {
-    handleToggleMenuOnClick: MouseEventHandler<HTMLButtonElement>;
-    isToggleMenuOpen: boolean;
-};
-
 type AnnouncementProps = {
     title: string;
     callToAction?: CallToActionType;
     callToAction2?: CallToActionType;
 };
+
 
 type FooterProps = {
     title?: string;
@@ -59,10 +73,4 @@ type HeaderProps = {
     showToggleTheme?: boolean;
     showRssFeed?: boolean;
     position?: 'center' | 'right' | 'left';
-};
-
-type Image = {
-    link?: string;
-    src: string | StaticImageData;
-    alt: string;
 };
