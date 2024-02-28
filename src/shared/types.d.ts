@@ -55,6 +55,10 @@ type AnnouncementProps = {
     callToAction2?: CallToActionType;
 };
 
+type SocialProofProps = Widget & {
+    images: Array<Image>;
+};
+
 
 type FooterProps = {
     title?: string;
