@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from "next/image";
 import { SocialProofProps } from "~/shared/types";
 
@@ -22,6 +23,13 @@ const SocialProof = ({ images, id, hasBackground = false }: SocialProofProps) =>
                 <div>15</div>
         </div>
     </WidgetWrapper>
+=======
+
+const SocialProof = () => {
+  return (
+    <div>SocialProof</div>
+  )
+>>>>>>> 857da1647beb406d86400f05d3a2c345460938f2
 }
 
 export default SocialProof
