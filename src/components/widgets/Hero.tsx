@@ -44,7 +44,6 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
                             />
                         </div>
                     )}
-
                 </div>
             </div>
         </section>
