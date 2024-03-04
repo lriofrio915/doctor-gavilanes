@@ -1,12 +1,11 @@
-<<<<<<< HEAD
 import Image from "next/image";
 import { SocialProofProps } from "~/shared/types";
+import WidgetWrapper from "../common/WidgetWrapper";
 
-const SocialProof = ({ images, id, hasBackground = false }: SocialProofProps) => {
-    <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
+const SocialProof = ({ images, id, hasBackground = false }: SocialProofProps) => (
+    <WidgetWrapper id={id ?? ''} hasBackground={hasBackground} containerClass="">
         <div className="flex items-center justify-center gap-6 md:gap-9">
-            {images &&
-                images.map(({ src, alt, link }, index) => (
+            {images?.map(({ src, alt, link }, index) => (
                     <div key={`item-social-proof-${index}`}>
                         <a href={link} target="_blank" rel="noopener">
                             <Image
@@ -20,16 +19,7 @@ const SocialProof = ({ images, id, hasBackground = false }: SocialProofProps) =>
                         </a>
                     </div>
                 ))}
-                <div>15</div>
         </div>
     </WidgetWrapper>
-=======
-
-const SocialProof = () => {
-  return (
-    <div>SocialProof</div>
-  )
->>>>>>> 857da1647beb406d86400f05d3a2c345460938f2
-}
-
-export default SocialProof
+);
+export default SocialProof;

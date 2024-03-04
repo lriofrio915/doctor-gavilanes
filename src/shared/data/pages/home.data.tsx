@@ -2,9 +2,13 @@ import {
     IconBrandWhatsapp
 } from '@tabler/icons-react';
 
-import { HeroProps } from '~/shared/types';
+import { HeroProps, SocialProofProps } from '~/shared/types';
 
 import heroImg from '~/assets/images/hero.jpg';
+import nextJsLogo from '~/assets/images/nextjs-logo.png';
+import reactLogo from '~/assets/images/react-logo.png';
+import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
+import typescriptLogo from '~/assets/images/typescript-logo.png';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -38,4 +42,32 @@ export const heroHome: HeroProps = {
         src: heroImg,
         alt: 'Hero TailNext',
     },
+};
+
+// SocialProof data on Home page *******************
+export const socialProofHome: SocialProofProps = {
+    id: 'socialProof-on-home',
+    hasBackground: false,
+    images: [
+        {
+            link: 'https://nextjs.org/',
+            src: nextJsLogo,
+            alt: 'NextJs Logo',
+        },
+        {
+            link: 'https://react.dev/',
+            src: reactLogo,
+            alt: 'React Logo',
+        },
+        {
+            link: 'https://tailwindcss.com/',
+            src: tailwindCssLogo,
+            alt: 'Tailwind CSS Logo',
+        },
+        {
+            link: 'https://www.typescriptlang.org/',
+            src: typescriptLogo,
+            alt: 'Typescript Logo',
+        },
+    ],
 };
