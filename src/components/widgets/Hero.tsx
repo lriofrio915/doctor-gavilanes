@@ -6,8 +6,8 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
     return (
         <section id="heroOne">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
-                <div className="flex py-12 md:py-20">
-                    <div className="mx-auto max-w-4xl pb-10 text-left md:pb-16">
+                <div className="flex py-12 md:py-10">
+                    <div className="mx-auto max-w-[calc(100% - 400px)] pb-10 text-left mr-10">
                         <div className="w-[286px] h-[56px] flex flex-col items-start justify-start py-[5px] box-border relative">
                             <div className="w-14 h-[29px] absolute bottom-[20px] bg-blue-500" />
                             <b className="px-[9px] text-lg text-gray-900 dark:text-white absolute leading-[32px]">Dr. Patricio Gavilanes</b>
@@ -18,7 +18,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
                             </p>
                         )}
                         {title && (
-                            <h1 className="leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
+                            <h1 className="leading-tighter font-heading mb-6 text-6xl font-bold tracking-tighter md:text-5xl lg:text-7xl">
                                 {title}
                             </h1>
                         )}
@@ -30,9 +30,9 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
                         </div>
                     </div>
                     {image && (
-                        <div className="hidden md:block relative m-auto max-w-5xl">
+                        <div className="hidden md:block relative m-auto max-w-5xl md:mt-[-10px] lg:mt-[-40px] xl:mt-[-50px]">
                             <Image
-                                className="mx-auto h-auto w-full rounded-md bg-gray-400 dark:bg-slate-700"
+                                className="mx-auto h-auto w-full rounded-md"
                                 src={image.src}
                                 alt={image.alt}
                                 width={1024}

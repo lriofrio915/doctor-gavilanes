@@ -4,11 +4,11 @@ import {
 
 import { HeroProps, SocialProofProps } from '~/shared/types';
 
+import cirugiaLogo from '~/assets/images/cirugia-logo.png';
+import doctorLogo from '~/assets/images/doctor-logo.png';
+import estetoscopioLogo from '~/assets/images/estetoscopio-logo.png';
 import heroImg from '~/assets/images/hero.jpg';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
-import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
-import typescriptLogo from '~/assets/images/typescript-logo.png';
+import hospitalLogo from '~/assets/images/hospital-logo.png';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -50,24 +50,24 @@ export const socialProofHome: SocialProofProps = {
     hasBackground: false,
     images: [
         {
-            link: 'https://nextjs.org/',
-            src: nextJsLogo,
-            alt: 'NextJs Logo',
+            /* link: '', */
+            src: doctorLogo,
+            alt: 'doctor',
         },
         {
-            link: 'https://react.dev/',
-            src: reactLogo,
-            alt: 'React Logo',
+            /* link: '', */
+            src: hospitalLogo,
+            alt: 'hospital',
         },
         {
-            link: 'https://tailwindcss.com/',
-            src: tailwindCssLogo,
-            alt: 'Tailwind CSS Logo',
+            /* link: '', */
+            src: estetoscopioLogo,
+            alt: 'estetoscopio',
         },
         {
-            link: 'https://www.typescriptlang.org/',
-            src: typescriptLogo,
-            alt: 'Typescript Logo',
+            /* link: '', */
+            src: cirugiaLogo,
+            alt: 'cirugia',
         },
     ],
 };
