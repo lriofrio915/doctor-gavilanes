@@ -1,15 +1,16 @@
 import {
-    IconBrandWhatsapp, IconBrandTailwind, IconComponents, IconListCheck, IconRocket, IconArrowsRightLeft, IconBulb
+    IconBrandWhatsapp, IconFriends, IconWoman, IconStretching, IconEmergencyBed, IconHospitalCircle, IconClipboardHeart
 
 } from '@tabler/icons-react';
 
-import { HeroProps, SocialProofProps, FeaturesProps } from '~/shared/types';
+import { HeroProps, SocialProofProps, FeaturesProps, ContentProps } from '~/shared/types';
 
 import cirugiaLogo from '~/assets/images/cirugia-logo.png';
 import doctorLogo from '~/assets/images/doctor-logo.png';
 import estetoscopioLogo from '~/assets/images/estetoscopio-logo.png';
 import heroImg from '~/assets/images/hero.jpg';
 import hospitalLogo from '~/assets/images/hospital-logo.png';
+import doctorImg from '~/assets/images/hero5.png';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -41,7 +42,7 @@ export const heroHome: HeroProps = {
     }, */
     image: {
         src: heroImg,
-        alt: 'Hero TailNext',
+        alt: 'medical profesional',
     },
 };
 
@@ -81,73 +82,106 @@ export const featuresHome: FeaturesProps = {
     header: {
         title: (
             <>
-                What you get with <span className="whitespace-nowrap">TailNext</span>
+                Atenciones <span className="whitespace-nowrap">Médicas</span>
             </>
         ),
         subtitle:
-            "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-        tagline: 'Features',
+            "Diagnóstico, tratamiento y control de las enfermedades que afectan a los vasos sanguíneos.",
+        tagline: 'Servicios',
     },
     items: [
         {
-            title: 'Next.Js + Tailwind CSS Integration',
+            title: 'Anomalías Vasculares en Niños',
             description:
-                'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-            icon: IconBrandTailwind,
+                'Las anomalías vasculares pueden ser un reto, pero con el tratamiento adecuado, ¡es posible superarlas!.',
+            icon: IconFriends,
             callToAction: {
-                text: 'Discover now',
+                text: 'Leer más',
                 href: '/',
             },
         },
         {
-            title: 'Ready-to-use Components',
+            title: 'Tratamiento de Várices Pélvicas',
             description:
-                'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-            icon: IconComponents,
+                'Endolaser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdominal que rodean al útero y los ovarios',
+            icon: IconWoman,
             callToAction: {
-                text: 'Discover now',
+                text: 'Leer más',
                 href: '/',
             },
         },
         {
-            title: 'Best Practices',
+            title: 'Enfermedad Arterial Periférica',
             description:
-                'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-            icon: IconListCheck,
+                'Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias de tus extremidades estén bloquedas.',
+            icon: IconStretching,
             callToAction: {
-                text: 'Discover now',
+                text: 'Leer más',
                 href: '/',
             },
         },
         {
-            title: 'Excellent Page Speed',
+            title: 'Trombosis Venosa Profunda',
             description:
-                'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-            icon: IconRocket,
+                'Este mal silencioso puede ser mortal si no se trata a tiempo. Acude a una cita si tienes hinchazón en las piernas, calambres en la pantorilla.',
+            icon: IconEmergencyBed,
             callToAction: {
-                text: 'Discover now',
+                text: 'Leer más',
                 href: '/',
             },
         },
         {
-            title: 'Search Engine Optimization (SEO)',
+            title: 'Pie diabético',
             description:
-                "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-            icon: IconArrowsRightLeft,
+                "El pie diabético aparece cuando existe niveles inadecuados de glucosa en la sangre y otros factores que concurren con frecuencia en personas con diabetes.",
+            icon: IconClipboardHeart,
             callToAction: {
-                text: 'Discover now',
+                text: 'Leer más',
                 href: '/',
             },
         },
         {
-            title: 'Open to new ideas and contributions',
+            title: 'Puerto subcutáneo',
             description:
-                'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
-            icon: IconBulb,
+                'Somos expertos en la colocación de puertos subcutáneos con técnicas mínimamente invasivas en pacientes pdiátricos y adultos.',
+            icon: IconHospitalCircle,
             callToAction: {
-                text: 'Discover now',
+                text: 'Leer más',
                 href: '/',
             },
         },
     ],
 };
+
+export const contentHomeTwo: ContentProps = {
+    id: 'contentOne-on-home-two',
+    hasBackground: true,
+    content:
+      'Porque tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamosen el cuidado integral',
+    items: [
+      {
+        title: 'Más de 10 años de experiencia en hospitales de prestigio',
+      },
+      {
+        title: 'Enfoque 100% centrado en el paciente',
+      },
+      {
+        title: 'Comprometidos con tu bienestar vascular a largo plazo',
+      },
+      {
+        title: 'Alta experiencia y tayectoria como cirujano vascular y endovascular',
+      },
+      {
+        title: 'Trabajamos con técnicas mínimamente invasivas',
+      },
+      {
+        title: 'Somos expertos en el manejo de varices',
+      },
+    ],
+    image: {
+      src: doctorImg,
+      alt: 'Colorful Image',
+    },
+    isReversed: true,
+    isAfterContent: true,
+  };
