@@ -3,7 +3,7 @@ import {
 
 } from '@tabler/icons-react';
 
-import { HeroProps, SocialProofProps, FeaturesProps, ContentProps } from '~/shared/types';
+import { HeroProps, SocialProofProps, FeaturesProps, ContentProps, TestimonialsProps } from '~/shared/types';
 
 import cirugiaLogo from '~/assets/images/cirugia-logo.png';
 import doctorLogo from '~/assets/images/doctor-logo.png';
@@ -11,6 +11,12 @@ import estetoscopioLogo from '~/assets/images/estetoscopio-logo.png';
 import heroImg from '~/assets/images/hero.jpg';
 import hospitalLogo from '~/assets/images/hospital-logo.png';
 import doctorImg from '~/assets/images/hero5.png';
+import taliaTestimonio from '~/assets/images/taliaTestimonio.jpg';
+import saraTestimonio from '~/assets/images/saraTestimonio.jpg';
+import karenTestimonio from '~/assets/images/karenTestimonio.jpg';
+import lisaTestimonio from '~/assets/images/lisaTestimonio.jpg';
+import kevinTestimonio from '~/assets/images/kevinTestimonio.jpg';
+import jordanTestimonio from '~/assets/images/jordanTestimonio.jpg';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -157,31 +163,103 @@ export const contentHomeTwo: ContentProps = {
     id: 'contentOne-on-home-two',
     hasBackground: true,
     content:
-      'Porque tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamosen el cuidado integral',
+        'Porque tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamosen el cuidado integral',
     items: [
-      {
-        title: 'Más de 10 años de experiencia en hospitales de prestigio',
-      },
-      {
-        title: 'Enfoque 100% centrado en el paciente',
-      },
-      {
-        title: 'Comprometidos con tu bienestar vascular a largo plazo',
-      },
-      {
-        title: 'Alta experiencia y tayectoria como cirujano vascular y endovascular',
-      },
-      {
-        title: 'Trabajamos con técnicas mínimamente invasivas',
-      },
-      {
-        title: 'Somos expertos en el manejo de varices',
-      },
+        {
+            title: 'Más de 10 años de experiencia en hospitales de prestigio',
+        },
+        {
+            title: 'Enfoque 100% centrado en el paciente',
+        },
+        {
+            title: 'Comprometidos con tu bienestar vascular a largo plazo',
+        },
+        {
+            title: 'Alta experiencia y tayectoria como cirujano vascular y endovascular',
+        },
+        {
+            title: 'Trabajamos con técnicas mínimamente invasivas',
+        },
+        {
+            title: 'Somos expertos en el manejo de varices',
+        },
     ],
     image: {
-      src: doctorImg,
-      alt: 'Colorful Image',
+        src: doctorImg,
+        alt: 'Colorful Image',
     },
     isReversed: true,
     isAfterContent: true,
-  };
+};
+
+export const testimonialsHome: TestimonialsProps = {
+    id: 'testimonials-on-home',
+    hasBackground: true,
+    header: {
+        title: 'Escuchamos a nuestros pacientes',
+        subtitle:
+            'Nuestro enfoque primordial es en el paciente, nos caracterizamos por nuestra calidad profesional y sobre todo por nuestra calidad humana.',
+    },
+    testimonials: [
+        {
+            name: 'Talia Q.',
+            job: 'Profesora',
+            testimonial: `Paso largas horas de pie en el aula, lo que me causaba molestias en las piernas. Gracias al tratamiento con el Dr. Gavilanes, mis problemas de circulación han mejorado significativamente. Ahora puedo seguir enseñando con comodidad y sin molestias.`,
+            image: {
+                src: taliaTestimonio,
+                alt: 'Talia',
+            },
+            href: '/',
+        },
+        {
+            name: 'Jordan L.',
+            job: 'Mecánico',
+            testimonial: `El tratamiento fue muy efectivo y la atención personalizada, alivió mis síntomas y me permitió volver a trabajar con energía renovada.`,
+            image: {
+                src: jordanTestimonio,
+                alt: 'Jordan',
+            },
+            href: '/',
+        },
+        {
+            name: 'Karen A.',
+            job: 'Nutricionista',
+            testimonial: `Como nutricionista, sé lo importante que es cuidar nuestra salud. El Dr. Gavilanes me ayudó a abordar mis problemas vasculares con un enfoque integral que complementa mi estilo de vida saludable.`,
+            image: {
+                src: karenTestimonio,
+                alt: 'Karen',
+            },
+            href: '/',
+        },
+        {
+            name: 'Sara M.',
+            job: 'Chef',
+            testimonial: `Gracias al tratamiento del Dr. Gavilanes, mis problemas de venas varicosas han mejorado notablemente. Ahora puedo continuar deleitando a mis comensales con platos deliciosos y sin molestias.`,
+            image: {
+                src: saraTestimonio,
+                alt: 'Sara',
+            },
+            href: '/',
+        },
+        {
+            name: 'Kevin V.',
+            job: 'Ingeniero en Sistemas',
+            testimonial: `Por un largo tiempo descuidé mi salud hasta que el dolor de piernas fue insoportable, gracias al doctor estoy nuevamente realizando mis actividades con normalidad.`,
+            image: {
+                src: kevinTestimonio,
+                alt: 'Kevin',
+            },
+            href: '/',
+        },
+        {
+            name: 'Lisa G.',
+            job: 'Odontóloga',
+            testimonial: `Agradezco al doctor Gavilanes su oportuno tratamiento para aliviar con mis síntomas y dar soluciones oportunas a dolencias que sufría hace algunos años atrás, me siento muy agradecida.`,
+            image: {
+                src: lisaTestimonio,
+                alt: 'Lisa',
+            },
+            href: '/',
+        },
+    ],
+};
