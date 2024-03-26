@@ -271,35 +271,35 @@ export const faqs2Home: FAQsProps = {
     id: 'faqsTwo-on-home',
     hasBackground: false,
     header: {
-        title: 'Frequently Asked Questions',
+        title: 'Preguntas Frecuentes',
         subtitle:
-            'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
-        tagline: 'FAQS',
+            'Conoce las preguntas más frecuentes que nos hacen nuestros pacientes, y si tienes alguna en particular no dudes en ponerte en contacto inmediatamente.',
+        tagline: 'INFORMACIÓN',
     },
     items: [
         {
-            title: 'What do I need to start?',
-            description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+            title: '¿Qué es la enfermedad arterial periférica (EAP)?',
+            description: `También conocida como EAP, es un trastorno circulatorio en el que las arterias que suministran sangre a las piernas y los pies se estrechan o se bloquean debido a la acumulación de placa. Esto puede causar dolor al caminar, calambres en las piernas, úlceras en los pies y aumentar el riesgo de problemas cardiovasculares graves.`,
         },
         {
-            title: 'How to install the NextJS + Tailwind CSS template?',
-            description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+            title: '¿Cuáles son los síntomas de un aneurisma y cómo se diagnostica?',
+            description: `Los síntomas de un aneurisma pueden variar dependiendo de su ubicación, pero pueden incluir dolor repentino e intenso en el área afectada, latidos anormales, dolor abdominal o en el pecho. Se pueden utilizar pruebas de diagnóstico como ecografías, tomografías computarizadas (TC) o resonancias magnéticas (RM) para confirmar la presencia de un aneurisma.`,
         },
         {
-            title: "What's something that you completely don't understand?",
-            description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+            title: "¿Cómo se tratan las varices y cuándo debo considerar la cirugía?",
+            description: `El tratamiento de las varices puede incluir cambios en el estilo de vida, como el ejercicio regular y elevar las piernas, así como el uso de medias de compresión. En casos más graves, pueden realizarse procedimientos médicos como la escleroterapia o la ablación endovenosa. La cirugía puede considerarse si los síntomas son graves o si hay complicaciones como úlceras o trombosis.`,
         },
         {
-            title: "What's an example of when you changed your mind?",
-            description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+            title: "¿Qué es una trombosis venosa profunda (TVP) y cómo se previene?",
+            description: `La trombosis venosa profunda es la formación de coágulos de sangre en las venas profundas, generalmente en las piernas. Para prevenir la TVP, es importante mantenerse activo, mover las piernas regularmente, evitar estar sentado o de pie por largos períodos, mantener un peso saludable y usar medias de compresión si es necesario.`,
         },
         {
-            title: 'What is something that you would really like to try again?',
-            description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+            title: '¿Cuáles son los riesgos asociados con la cirugía vascular?',
+            description: `Los riesgos de la cirugía vascular pueden incluir infección, sangrado, coágulos de sangre, daño a los nervios o tejidos circundantes, reacciones alérgicas a la anestesia y complicaciones relacionadas con el corazón o los pulmones. Sin embargo, muchos procedimientos se realizan de manera segura y con bajos riesgos cuando se llevan a cabo por un cirujano vascular experimentado.`,
         },
         {
-            title: 'If you could only ask one question to each person you meet, what would that question be?',
-            description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+            title: '¿Qué puedo hacer para mejorar mi circulación sanguínea en casa?',
+            description: `Para mejorar la circulación sanguínea en casa, se recomienda mantener un estilo de vida saludable que incluya una dieta balanceada, ejercicio regular, evitar el tabaco y reducir el estrés. Además, es importante mantener las extremidades elevadas cuando sea posible, usar ropa cómoda y evitar temperaturas extremadamente frías o calientes que puedan afectar la circulación.`,
         },
     ],
 };
