@@ -3,7 +3,7 @@ import {
 
 } from '@tabler/icons-react';
 
-import { HeroProps, SocialProofProps, FeaturesProps, ContentProps, TestimonialsProps } from '~/shared/types';
+import { HeroProps, SocialProofProps, FeaturesProps, ContentProps, TestimonialsProps, FAQsProps } from '~/shared/types';
 
 import cirugiaLogo from '~/assets/images/cirugia-logo.png';
 import doctorLogo from '~/assets/images/doctor-logo.png';
@@ -159,6 +159,7 @@ export const featuresHome: FeaturesProps = {
     ],
 };
 
+// Contenido data on Home page *******************
 export const contentHomeTwo: ContentProps = {
     id: 'contentOne-on-home-two',
     hasBackground: true,
@@ -192,6 +193,7 @@ export const contentHomeTwo: ContentProps = {
     isAfterContent: true,
 };
 
+// Testimonios data on Home page *******************
 export const testimonialsHome: TestimonialsProps = {
     id: 'testimonials-on-home',
     hasBackground: true,
@@ -260,6 +262,44 @@ export const testimonialsHome: TestimonialsProps = {
                 alt: 'Lisa',
             },
             href: '/',
+        },
+    ],
+};
+
+// FAQS data on Home page *******************
+export const faqs2Home: FAQsProps = {
+    id: 'faqsTwo-on-home',
+    hasBackground: false,
+    header: {
+        title: 'Frequently Asked Questions',
+        subtitle:
+            'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+        tagline: 'FAQS',
+    },
+    items: [
+        {
+            title: 'What do I need to start?',
+            description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+        },
+        {
+            title: 'How to install the NextJS + Tailwind CSS template?',
+            description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+        },
+        {
+            title: "What's something that you completely don't understand?",
+            description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+        },
+        {
+            title: "What's an example of when you changed your mind?",
+            description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+        },
+        {
+            title: 'What is something that you would really like to try again?',
+            description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+        },
+        {
+            title: 'If you could only ask one question to each person you meet, what would that question be?',
+            description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
         },
     ],
 };
