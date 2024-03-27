@@ -6,7 +6,8 @@ import Features from "~/components/widgets/Features";
 import Testimonials from "~/components/widgets/Testimonials";
 import FAQs from "~/components/widgets/FAQs";
 import { SITE } from "~/config";
-import { heroHome, socialProofHome, featuresHome, contentHomeTwo, testimonialsHome, faqs2Home } from "~/shared/data/pages/home.data";
+import { heroHome, socialProofHome, featuresHome, contentHomeTwo, testimonialsHome, faqs2Home, contactHome } from "~/shared/data/pages/home.data";
+import Contact from "~/components/widgets/Contact";
 
 export const metadata: Metadata = {
   title: SITE.title,
@@ -21,6 +22,7 @@ export default function Home() {
       <Features {...featuresHome} />
       <Testimonials {...testimonialsHome} />
       <FAQs {...faqs2Home} />
+      <Contact {...contactHome} />
     </>
   );
 }

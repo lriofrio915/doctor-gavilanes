@@ -1,9 +1,9 @@
 import {
-    IconBrandWhatsapp, IconFriends, IconWoman, IconStretching, IconEmergencyBed, IconHospitalCircle, IconClipboardHeart
+    IconBrandWhatsapp, IconFriends, IconWoman, IconStretching, IconEmergencyBed, IconHospitalCircle, IconClipboardHeart, IconMapPin, IconPhoneCall, IconClock
 
 } from '@tabler/icons-react';
 
-import { HeroProps, SocialProofProps, FeaturesProps, ContentProps, TestimonialsProps, FAQsProps } from '~/shared/types';
+import { HeroProps, SocialProofProps, FeaturesProps, ContentProps, TestimonialsProps, FAQsProps, ContactProps } from '~/shared/types';
 
 import cirugiaLogo from '~/assets/images/cirugia-logo.png';
 import doctorLogo from '~/assets/images/doctor-logo.png';
@@ -302,4 +302,60 @@ export const faqs2Home: FAQsProps = {
             description: `Para mejorar la circulación sanguínea en casa, se recomienda mantener un estilo de vida saludable que incluya una dieta balanceada, ejercicio regular, evitar el tabaco y reducir el estrés. Además, es importante mantener las extremidades elevadas cuando sea posible, usar ropa cómoda y evitar temperaturas extremadamente frías o calientes que puedan afectar la circulación.`,
         },
     ],
+};
+
+// Contact data on Home page *******************
+export const contactHome: ContactProps = {
+    hasBackground: true,
+    header: {
+        title: 'Comunícate Hoy',
+        subtitle: 'Para aliviar el dolor de tus síntomas',
+        tagline: 'Contacto',
+    },
+    content:
+        'Visítanos en cualquiera de nuestros consultorios médicos para dar solución definitiva a tus  dolencias vasculares. Llena el siguiente formulario y procederemos a comunicarnos contigo.',
+    items: [
+        {
+            title: 'Dirección',
+            description: ['Francisco de Orellana 6-27', 'Cumbayá, Ecuador'],
+            icon: IconMapPin,
+        },
+        {
+            title: 'Contacto',
+            description: ['WhatsApp: 099 834 0502', 'Mail: patriciogavilanes.87@gmail.com'],
+            icon: IconPhoneCall,
+        },
+        {
+            title: 'Horario laboral',
+            description: ['Lunes - Viernes: 08:00 - 17:00', 'Sábado & Domingo: 08:00 - 12:00'],
+            icon: IconClock,
+        },
+    ],
+    form: {
+        title: 'Completa los siguientes datos',
+        inputs: [
+            {
+                type: 'text',
+                name: 'name',
+                autocomplete: 'off',
+                placeholder: 'Tu nombre',
+            },
+            {
+                type: 'number',
+                name: 'number',
+                autocomplete: 'on',
+                placeholder: 'Tu número de WhatsApp',
+            },
+        ],
+        textarea: {
+            cols: 30,
+            rows: 5,
+            name: 'textarea',
+            placeholder: 'Escribe aquí el motivo de tu consulta...',
+        },
+        btn: {
+            title: 'Enviar',
+            type: 'submit',
+        },
+    },
 };
