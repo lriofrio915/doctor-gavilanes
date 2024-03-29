@@ -15,28 +15,28 @@ export const announcementData: AnnouncementProps = {
         href: '/',
     },
     callToAction2: {
-        text: 'Síguenos @onWidget en X',
-        href: '/',
+        text: 'Dr. Patricio Gavilanes',
+        href: 'https://twitter.com/CVascular_PG',
     },
 };
 
 // Header data
 export const headerData: HeaderProps = {
     links: [
-        {
+        /* {
             label: 'Cursos',
             icon: IconChevronDown,
             links: [
                 {
-                    label: 'Freemium',
-                    href: '/cursos-premium',
+                    label: 'Gratuitos',
+                    href: '/cursos-freemium',
                 },
                 {
                     label: 'Premium',
                     href: '/cursos-premium',
                 },
             ],
-        },
+        }, */
         /* {
             label: 'Inicio',
             href: '/',
@@ -56,9 +56,9 @@ export const headerData: HeaderProps = {
     ],
     actions: [
         {
-            text: 'Agendar',
-            href: '/',
-            targetBlank: true,
+            text: 'Contacto',
+            href: '#contact',
+            targetBlank: false,
         },
     ],
     isSticky: true,
@@ -84,15 +84,15 @@ export const footerData2: FooterProps = {
     columns: [
         {
             title: 'Dirección',
-            texts: ['Cumbayá', 'Pichincha, Ecuador'],
+            texts: ['Francisco de Orellana 6-27', 'Cumbayá, Ecuador'],
         },
         {
-            title: 'Emergencias',
-            texts: ['+593 99 906 1838'],
+            title: 'WhatsApp',
+            texts: ['099 834 0502'],
         },
         {
-            title: 'Email',
-            texts: ['patriciogavilanes.87@gmail.com'],
+            title: 'Horario Laboral',
+            texts: ['Previa Cita'],
         },
     ],
     socials: [

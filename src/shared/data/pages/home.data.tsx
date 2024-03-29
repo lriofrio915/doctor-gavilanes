@@ -17,6 +17,7 @@ import karenTestimonio from '~/assets/images/karenTestimonio.jpg';
 import lisaTestimonio from '~/assets/images/lisaTestimonio.jpg';
 import kevinTestimonio from '~/assets/images/kevinTestimonio.jpg';
 import jordanTestimonio from '~/assets/images/jordanTestimonio.jpg';
+import doctorContactoImg from '~/assets/images/hero4.png';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -27,18 +28,18 @@ export const heroHome: HeroProps = {
     ),
     subtitle: (
         <>
-            <span className="hidden md:inline">
+            <span className="md:inline">
                 <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-                    Dedicación incansable
+                    El compromiso
                 </span>{' '}
-                por la salud de todos mis pacientes.
+                con todos mis pacientes es proporcionar cuidado excepcional,
             </span>{' '}
-            Mi compromiso es proporcionar cuidado excepcional, basado en años de formación académica y experiencia clínica especializada.
+            basado en años de formación académica y experiencia clínica especializada.
         </>
     ),
     callToAction: {
         text: 'Agendar Cita',
-        href: 'https://api.whatsapp.com/send?phone=+593999061838&text=Saludos%20cordiales%20doctor.%20Deseo%20agendar%20una%20cita.',
+        href: 'https://api.whatsapp.com/send?phone=+593998340502&text=Saludos%20cordiales%20doctor.%20Deseo%20agendar%20una%20cita.',
         icon: IconBrandWhatsapp,
         targetBlank: true,
     },
@@ -162,9 +163,13 @@ export const featuresHome: FeaturesProps = {
 // Contenido data on Home page *******************
 export const contentHomeTwo: ContentProps = {
     id: 'contentOne-on-home-two',
+    header: {
+        title: 'VANGUARDISTA',
+        tagline: 'EXCELENCIA PROFESIONAL',
+    },
     hasBackground: true,
     content:
-        'Porque tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamosen el cuidado integral',
+        'Tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamos en el cuidado integral',
     items: [
         {
             title: 'Más de 10 años de experiencia en hospitales de prestigio',
@@ -309,12 +314,12 @@ export const contactHome: ContactProps = {
     hasBackground: true,
     header: {
         title: 'Comunícate Hoy',
-        subtitle: 'Para aliviar el dolor de tus síntomas',
+        subtitle: 'Pondremos punto final a tus dolencias vasculares.',
         tagline: 'Contacto',
     },
     content:
         'Visítanos en cualquiera de nuestros consultorios médicos para dar solución definitiva a tus  dolencias vasculares. Llena el siguiente formulario y procederemos a comunicarnos contigo.',
-    items: [
+    /* items: [
         {
             title: 'Dirección',
             description: ['Francisco de Orellana 6-27', 'Cumbayá, Ecuador'],
@@ -327,10 +332,10 @@ export const contactHome: ContactProps = {
         },
         {
             title: 'Horario laboral',
-            description: ['Lunes - Viernes: 08:00 - 17:00', 'Sábado & Domingo: 08:00 - 12:00'],
+            description: ['Previa Cita'],
             icon: IconClock,
         },
-    ],
+    ], */
     form: {
         title: 'Completa los siguientes datos',
         inputs: [
@@ -357,5 +362,9 @@ export const contactHome: ContactProps = {
             title: 'Enviar',
             type: 'submit',
         },
+    },
+    image: {
+        src: doctorContactoImg,
+        alt: 'doctor gavilanes',
     },
 };

@@ -2,16 +2,44 @@ import Form from "../common/Form";
 import Headline from "../common/Headline";;
 import { ContactProps } from "~/shared/types";
 import WidgetWrapper from "../common/WidgetWrapper";
+import Image from 'next/image';
 
-const Contact = ({ header, content, items, form, id, hasBackground = false }: ContactProps) => {
+const Contact = ({ header, content, items, form, image, id, hasBackground = false }: ContactProps) => {
     return (
-        <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="max-w-6xl">
+        <WidgetWrapper id={id ? id : 'contact'} hasBackground={hasBackground} containerClass="max-w-6xl">
             {header && <Headline header={header} titleClass="text-3xl sm:text-5xl" />}
             <div className="flex items-stretch justify-center">
                 <div className={`grid ${!content && !items ? 'md:grid-cols-1' : 'md:grid-cols-2'}`}>
-                    <div className="h-full pr-6">
-                        {content && <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</p>}
-                        <ul className="mb-6 md:mb-0">
+                    <div className="h-full p-4 md:pt-0 mdp:b-0">
+                        <div aria-hidden="true" className="md:mt-0 md:basis-1/2">
+                            {image && (
+                                <div className="relative m-auto max-w-4xl">
+                                    <Image
+                                        className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
+                                        src={image.src}
+                                        width={828}
+                                        height={828}
+                                        alt={image.alt}
+                                        sizes="(max-width: 768px) 100vw, 432px"
+                                        placeholder="blur"
+                                        quality={50}
+                                    />
+                                </div>
+                            )}
+                        </div>
+                        {/* {content && <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</p>} */}
+                    </div>
+                    <Form {...form} containerClass="card h-fit max-w-2xl mx-auto p-5 md:p-12" btnPosition="center" />
+                </div>
+            </div>
+        </WidgetWrapper>
+    )
+}
+
+export default Contact
+
+
+{/* <ul className="mb-6 md:mb-0">
                             {items &&
                                 items.map(({ title, description, icon: Icon }, index) => (
                                     <li key={`item-contact-${index}`} className="flex">
@@ -35,13 +63,4 @@ const Contact = ({ header, content, items, form, id, hasBackground = false }: Co
                                         </div>
                                     </li>
                                 ))}
-                        </ul>
-                    </div>
-                    <Form {...form} containerClass="card h-fit max-w-2xl mx-auto p-5 md:p-12" btnPosition="center" />
-                </div>
-            </div>
-        </WidgetWrapper>
-    )
-}
-
-export default Contact
+                        </ul> */}

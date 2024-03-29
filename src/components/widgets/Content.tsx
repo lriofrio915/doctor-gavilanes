@@ -20,12 +20,12 @@ const Content = ({
         <WidgetWrapper
             id={id ? id : ''}
             hasBackground={hasBackground}
-            containerClass={`${isAfterContent ? 'py-0 md:py-0 lg:py-0 pb-12 md:pb-16 lg:pb-20' : ''}`}
+            containerClass={`${isAfterContent ? 'py-10 md:py-10 lg:py-20 pb-12 md:pb-16 lg:pb-20' : ''}`}
         >
-            {header && <Headline header={header} titleClass="text-3xl sm:text-5xl" />}
             <div className="mx-auto max-w-7xl">
                 <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
                     <div className="self-center md:basis-1/2">
+                        {header && <Headline header={header} titleClass="text-3xl sm:text-5xl" />}
                         {content && <div className="mb-8 lg:mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</div>}
                         <ItemGrid
                             items={items}

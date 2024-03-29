@@ -339,6 +339,7 @@ type ContactProps = Widget & {
     content?: string;
     items?: Array<Item>;
     form: FormProps;
+    image: Image;
 };
 
 type FooterProps = {

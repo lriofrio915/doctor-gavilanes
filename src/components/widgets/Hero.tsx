@@ -7,7 +7,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
         <section id="heroOne">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
                 <div className="flex py-12 md:py-10">
-                    <div className="mx-auto max-w-[calc(100% - 400px)] pb-10 text-left mr-10">
+                    <div className="mx-auto max-w-[calc(100% - 400px)] pb-10 text-left">
                         <div className="w-[286px] h-[56px] flex flex-col items-start justify-start py-[5px] box-border relative">
                             <div className="w-14 h-[29px] absolute bottom-[20px] bg-blue-500" />
                             <b className="px-[9px] text-lg text-gray-900 dark:text-white absolute leading-[32px]">Dr. Patricio Gavilanes</b>
