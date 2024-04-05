@@ -39,7 +39,7 @@ export const heroHome: HeroProps = {
     ),
     callToAction: {
         text: 'Agendar Cita',
-        href: 'https://api.whatsapp.com/send?phone=+593998340502&text=Saludos%20cordiales%20doctor.%20Deseo%20agendar%20una%20cita.',
+        href: 'https://api.whatsapp.com/send?phone=+593998340502&text=Saludos%20cordiales%20doctor%20Gavilanes.%20Deseo%20agendar%20una%20cita.',
         icon: IconBrandWhatsapp,
         targetBlank: true,
     },
@@ -100,61 +100,61 @@ export const featuresHome: FeaturesProps = {
         {
             title: 'Anomalías Vasculares en Niños',
             description:
-                'Las anomalías vasculares pueden ser un reto, pero con el tratamiento adecuado, ¡es posible superarlas!.',
+                'Las anomalías vasculares pueden ser un reto, pero con el tratamiento adecuado, ¡es posible su...',
             icon: IconFriends,
             callToAction: {
                 text: 'Leer más',
-                href: '/',
+                href: '/servicios',
             },
         },
         {
             title: 'Tratamiento de Várices Pélvicas',
             description:
-                'Endolaser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdominal que rodean al útero y los ovarios',
+                'Endolaser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdomi...',
             icon: IconWoman,
             callToAction: {
                 text: 'Leer más',
-                href: '/',
+                href: '/servicios',
             },
         },
         {
             title: 'Enfermedad Arterial Periférica',
             description:
-                'Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias de tus extremidades estén bloquedas.',
+                'Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias d...',
             icon: IconStretching,
             callToAction: {
                 text: 'Leer más',
-                href: '/',
+                href: '/servicios',
             },
         },
         {
-            title: 'Trombosis Venosa Profunda',
+            title: 'Trombosis Venosa',
             description:
-                'Este mal silencioso puede ser mortal si no se trata a tiempo. Acude a una cita si tienes hinchazón en las piernas, calambres en la pantorilla.',
+                'Este mal silencioso puede ser mortal si no se trata a tiempo. Acude a una cita si tien...',
             icon: IconEmergencyBed,
             callToAction: {
                 text: 'Leer más',
-                href: '/',
+                href: '/servicios',
             },
         },
         {
             title: 'Pie diabético',
             description:
-                "El pie diabético aparece cuando existe niveles inadecuados de glucosa en la sangre y otros factores que concurren con frecuencia en personas con diabetes.",
+                "El pie diabético aparece cuando existe niveles inadecuados de glucosa en la sangre y otr...",
             icon: IconClipboardHeart,
             callToAction: {
                 text: 'Leer más',
-                href: '/',
+                href: '/servicios',
             },
         },
         {
             title: 'Puerto subcutáneo',
             description:
-                'Somos expertos en la colocación de puertos subcutáneos con técnicas mínimamente invasivas en pacientes pdiátricos y adultos.',
+                'Somos expertos en la colocación de puertos subcutáneos con técnic...',
             icon: IconHospitalCircle,
             callToAction: {
                 text: 'Leer más',
-                href: '/',
+                href: '/servicios',
             },
         },
     ],
@@ -318,7 +318,7 @@ export const contactHome: ContactProps = {
         tagline: 'Contacto',
     },
     content:
-        'Visítanos en cualquiera de nuestros consultorios médicos para dar solución definitiva a tus  dolencias vasculares. Llena el siguiente formulario y procederemos a comunicarnos contigo.',
+        'Dr. Patricio Gavilanes',
     /* items: [
         {
             title: 'Dirección',

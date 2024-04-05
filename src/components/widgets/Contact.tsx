@@ -9,13 +9,13 @@ const Contact = ({ header, content, items, form, image, id, hasBackground = fals
         <WidgetWrapper id={id ? id : 'contact'} hasBackground={hasBackground} containerClass="max-w-6xl">
             {header && <Headline header={header} titleClass="text-3xl sm:text-5xl" />}
             <div className="flex items-stretch justify-center">
-                <div className={`grid ${!content && !items ? 'md:grid-cols-1' : 'md:grid-cols-2'}`}>
-                    <div className="h-full p-4 md:pt-0 mdp:b-0">
+                <div className={`grid ${!content && !items ? 'md:grid-cols-1' : 'md:grid-cols-1'}`}>
+                    <div className="h-full p-2 md:pt-0 md:pb-0">
                         <div aria-hidden="true" className="md:mt-0 md:basis-1/2">
                             {image && (
                                 <div className="relative m-auto max-w-4xl">
                                     <Image
-                                        className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
+                                        className="md:hidden mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-100"
                                         src={image.src}
                                         width={828}
                                         height={828}
@@ -27,7 +27,6 @@ const Contact = ({ header, content, items, form, image, id, hasBackground = fals
                                 </div>
                             )}
                         </div>
-                        {/* {content && <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</p>} */}
                     </div>
                     <Form {...form} containerClass="card h-fit max-w-2xl mx-auto p-5 md:p-12" btnPosition="center" />
                 </div>
