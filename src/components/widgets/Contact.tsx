@@ -1,10 +1,10 @@
-import Form from "../common/Form";
+import { Form } from "../common/Form";
 import Headline from "../common/Headline";;
 import { ContactProps } from "~/shared/types";
 import WidgetWrapper from "../common/WidgetWrapper";
 import Image from 'next/image';
 
-const Contact = ({ header, content, items, form, image, id, hasBackground = false }: ContactProps) => {
+export const Contact = ({ header, content, items, form, image, id, hasBackground = false }: ContactProps) => {
     return (
         <WidgetWrapper id={id ? id : 'contact'} hasBackground={hasBackground} containerClass="max-w-6xl">
             {header && <Headline header={header} titleClass="text-3xl sm:text-5xl" />}
@@ -34,32 +34,3 @@ const Contact = ({ header, content, items, form, image, id, hasBackground = fals
         </WidgetWrapper>
     )
 }
-
-export default Contact
-
-
-{/* <ul className="mb-6 md:mb-0">
-                            {items &&
-                                items.map(({ title, description, icon: Icon }, index) => (
-                                    <li key={`item-contact-${index}`} className="flex">
-                                        <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
-                                            {Icon && <Icon className="h-6 w-6" />}
-                                        </div>
-                                        <div className="ml-4 mb-4">
-                                            <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">{title}</h3>
-                                            {typeof description === 'string' ? (
-                                                <p key={`text-description-${index}`} className="text-gray-600 dark:text-slate-400">
-                                                    {description}
-                                                </p>
-                                            ) : (
-                                                description &&
-                                                description.map((desc, index) => (
-                                                    <p key={`text-description-${index}`} className="text-gray-600 dark:text-slate-400">
-                                                        {desc}
-                                                    </p>
-                                                ))
-                                            )}
-                                        </div>
-                                    </li>
-                                ))}
-                        </ul> */}
