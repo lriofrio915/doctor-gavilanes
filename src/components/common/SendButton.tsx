@@ -9,6 +9,7 @@ export const SendButton = ({
     btnPosition,
 }: FormProps) => {
     const { pending } = useFormStatus();
+
     return (
         <div
             className={`${btnPosition === 'left' ? 'text-left' : btnPosition === 'right' ? 'text-right' : 'text-center'}`}
