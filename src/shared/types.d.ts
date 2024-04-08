@@ -99,6 +99,7 @@ type FormProps = {
     btn: Button;
     btnPosition?: 'center' | 'right' | 'left';
     containerClass?: string;
+    maxLength?:MaxLength;
 };
 
 type Image = {
@@ -340,6 +341,12 @@ type ContactProps = Widget & {
     items?: Array<Item>;
     form: FormProps;
     image: Image;
+};
+
+type ContactFormEmailProps = {
+    name: string;
+    number: string;
+    textarea: string;
 };
 
 type FooterProps = {

@@ -319,23 +319,6 @@ export const contactHome: ContactProps = {
     },
     content:
         'Dr. Patricio Gavilanes',
-    /* items: [
-        {
-            title: 'Dirección',
-            description: ['Francisco de Orellana 6-27', 'Cumbayá, Ecuador'],
-            icon: IconMapPin,
-        },
-        {
-            title: 'Contacto',
-            description: ['WhatsApp: 099 834 0502', 'Mail: patriciogavilanes.87@gmail.com'],
-            icon: IconPhoneCall,
-        },
-        {
-            title: 'Horario laboral',
-            description: ['Previa Cita'],
-            icon: IconClock,
-        },
-    ], */
     form: {
         title: 'Completa los siguientes datos',
         inputs: [
@@ -346,7 +329,7 @@ export const contactHome: ContactProps = {
                 placeholder: 'Tu nombre',
             },
             {
-                type: 'number',
+                type: 'text',
                 name: 'number',
                 autocomplete: 'on',
                 placeholder: 'Tu número de WhatsApp',
@@ -357,6 +340,7 @@ export const contactHome: ContactProps = {
             rows: 5,
             name: 'textarea',
             placeholder: 'Escribe aquí el motivo de tu consulta...',
+            
         },
         btn: {
             title: 'Enviar',

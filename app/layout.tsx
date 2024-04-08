@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { Inter as CustomFont } from 'next/font/google';
+import { Toaster } from "react-hot-toast";
 import '~/assets/styles/base.css';
 import Providers from "~/components/atoms/Providers";
 import Announcement from "~/components/widgets/Announcement";
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: Readonly<LayoutProps>) {
           <Header />
           <main>{children}</main>
           <Footer2 />
+          <Toaster position="top-right" />
         </Providers>
       </body>
     </html>
