@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Contact } from "~/components/widgets/Contact";
-import FAQs from "~/components/widgets/FAQs";
-import Features from "~/components/widgets/Features";
 import Hero from "~/components/widgets/HeroServices";
 import Hero2 from "~/components/widgets/Hero2";
 import Stats from "~/components/widgets/Stats";
@@ -15,9 +13,6 @@ import {
     hero2About,
     statsAbout,
     stepsAbout,
-    testimonials2About,
-    featuresAbout,
-    teamAbout,
     heroAbout,
 } from '~/shared/data/pages/about.data';
 import Features4 from "~/components/widgets/Features4";
