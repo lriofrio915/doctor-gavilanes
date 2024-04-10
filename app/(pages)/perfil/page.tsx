@@ -5,8 +5,6 @@ import Hero2 from "~/components/widgets/Hero2";
 import Stats from "~/components/widgets/Stats";
 
 import {
-    contactAbout,
-    faqsAbout,
     featuresFourAbout,
     featuresFourAboutTwo,
     features3About,
