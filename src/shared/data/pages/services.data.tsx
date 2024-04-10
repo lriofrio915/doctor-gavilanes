@@ -33,15 +33,6 @@ export const heroServices: HeroProps = {
     title: 'Nuestros Servicios',
     subtitle:
         'Tratamientos avanzados para todos tus problemas vasculares. Expertos en diagnóstico y tratamiento de enfermedades circulatorias. ',
-    /* callToAction: {
-        text: 'Start Exploring',
-        href: 'https://github.com/onwidget/tailnext',
-        targetBlank: true,
-    },
-    image: {
-        src: heroImg,
-        alt: 'Hero TailNext',
-    }, */
 };
 
 // Feature2 data on Services page *******************
