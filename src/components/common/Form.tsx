@@ -50,7 +50,7 @@ export const Form = ({
                 toast.success("Mensaje enviado exitosamente")
                 setTimeout(() => {
                     window.location.reload();
-                }, 3000); // 3000 milisegundos = 2 segundos
+                }, 3000);
             }}
         >
 
