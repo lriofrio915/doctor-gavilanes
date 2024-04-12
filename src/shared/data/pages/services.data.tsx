@@ -59,13 +59,13 @@ export const features2Services: FeaturesProps = {
         {
             title: 'Tratamiento de Várices Pélvicas',
             description:
-                'Endolaser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdominal que rodean al útero y los ovarios',
+                'Endoláser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdominal que rodean al útero y los ovarios.',
             icon: IconWoman,
         },
         {
             title: 'Enfermedad Arterial Periférica',
             description:
-                'Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias de tus extremidades estén bloquedas.',
+                '¿Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias de tus extremidades estén bloquedas.',
             icon: IconStretching,
         },
         {
@@ -128,22 +128,22 @@ export const contentServicesTwo: ContentProps = {
         'Las varices pélvicas aparecen con frecuencia en mujeres que han sido madres. Los síntomas más habituales son:',
     items: [
         {
-            title: 'Dolor pélvico en la parte del abdomen',
+            title: 'Dolor pélvico en la parte del abdomen.',
         },
         {
-            title: 'Dolor de piernas al estar de pie',
+            title: 'Dolor de piernas al estar de pie.',
         },
         {
-            title: 'Dolor durante la menstruación',
+            title: 'Dolor durante la menstruación.',
         },
         {
-            title: 'Dolor en las relaciones sexuales',
+            title: 'Dolor en las relaciones sexuales.',
         },
         {
-            title: 'Dolor de espalda',
+            title: 'Dolor de espalda.',
         },
         {
-            title: 'Pesadez en las piernas',
+            title: 'Pesadez en las piernas.',
         },
     ],
     image: {
@@ -293,7 +293,7 @@ export const callToActionServices: CallToActionProps = {
     hasBackground: false,
     title: 'Atención Médica Especializada',
     subtitle:
-        'Nuestro horario laboral es bajo previa cita. Comunícate con nostros y agendamos el día y hora de tu consulta.',
+        'Comunícate con nosotros y agendamos el día y hora de tu consulta.',
     callToAction: {
         text: 'Agendar',
         href: 'https://api.whatsapp.com/send?phone=+593998340502&text=Saludos%20cordiales%20doctor%20Gavilanes.%20Deseo%20agendar%20una%20cita.',

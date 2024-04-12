@@ -6,11 +6,10 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
     return (
         <section id="heroOne">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
-                <div className="flex py-12 md:py-10">
+                <div className="flex flex-col-reverse md:flex-row py-12 md:py-10">
                     <div className="mx-auto max-w-[calc(100% - 400px)] pb-10 text-left">
                         <div className="w-[286px] h-[56px] flex flex-col items-start justify-start py-[5px] box-border relative">
-                            <div className="w-14 h-[29px] absolute bottom-[20px] bg-blue-500" />
-                            <b className="px-[9px] text-lg text-gray-900 dark:text-white absolute leading-[32px]">Dr. Patricio Gavilanes</b>
+                            <b className="px-[9px] text-2xl text-gray-900 dark:text-white absolute leading-[32px]">Dr. Patricio Gavilanes</b>
                         </div>
                         {tagline && (
                             <p className="text-base font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-200">
@@ -30,7 +29,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
                         </div>
                     </div>
                     {image && (
-                        <div className="hidden md:block relative m-auto max-w-5xl md:mt-[-10px] lg:mt-[-40px] xl:mt-[-50px]">
+                        <div className="relative m-auto max-w-5xl mb-2 md:mt-[-10px] lg:mt-[-40px] xl:mt-[-50px]">
                             <Image
                                 className="mx-auto h-auto w-full rounded-md"
                                 src={image.src}

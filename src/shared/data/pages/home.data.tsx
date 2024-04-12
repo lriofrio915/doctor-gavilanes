@@ -29,10 +29,7 @@ export const heroHome: HeroProps = {
     subtitle: (
         <>
             <span className="md:inline">
-                <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-                    El compromiso
-                </span>{' '}
-                con todos mis pacientes es proporcionar cuidado excepcional,
+                El compromiso con todos mis pacientes es proporcionar cuidado excepcional,
             </span>{' '}
             basado en años de formación académica y experiencia clínica especializada.
         </>
@@ -110,7 +107,7 @@ export const featuresHome: FeaturesProps = {
         {
             title: 'Tratamiento de Várices Pélvicas',
             description:
-                'Endolaser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdomi...',
+                'Endoláser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdomi...',
             icon: IconWoman,
             callToAction: {
                 text: 'Leer más',
@@ -120,7 +117,7 @@ export const featuresHome: FeaturesProps = {
         {
             title: 'Enfermedad Arterial Periférica',
             description:
-                'Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias d...',
+                '¿Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias d...',
             icon: IconStretching,
             callToAction: {
                 text: 'Leer más',
@@ -172,22 +169,22 @@ export const contentHomeTwo: ContentProps = {
         'Tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamos en el cuidado integral',
     items: [
         {
-            title: 'Más de 10 años de experiencia en hospitales de prestigio',
+            title: 'Más de 10 años de experiencia en hospitales de prestigio.',
         },
         {
-            title: 'Enfoque 100% centrado en el paciente',
+            title: 'Enfoque 100% centrado en el paciente.',
         },
         {
-            title: 'Comprometidos con tu bienestar vascular a largo plazo',
+            title: 'Comprometidos con tu bienestar vascular a largo plazo.',
         },
         {
-            title: 'Alta experiencia y tayectoria como cirujano vascular y endovascular',
+            title: 'Alta experiencia y tayectoria como cirujano vascular y endovascular.',
         },
         {
-            title: 'Trabajamos con técnicas mínimamente invasivas',
+            title: 'Trabajamos con técnicas mínimamente invasivas.',
         },
         {
-            title: 'Somos expertos en el manejo de varices',
+            title: 'Somos expertos en el manejo de varices.',
         },
     ],
     image: {
@@ -340,7 +337,7 @@ export const contactHome: ContactProps = {
             rows: 5,
             name: 'textarea',
             placeholder: 'Escribe aquí el motivo de tu consulta...',
-            
+
         },
         btn: {
             title: 'Enviar',

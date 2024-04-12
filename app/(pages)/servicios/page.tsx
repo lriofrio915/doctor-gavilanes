@@ -1,10 +1,12 @@
 import { Metadata } from "next";
 import CallToAction from "~/components/widgets/CallToAction";
+import { Contact } from "~/components/widgets/Contact";
 import Content from "~/components/widgets/Content";
 import FAQs from "~/components/widgets/FAQs";
 import FeaturesService1 from "~/components/widgets/FeaturesService1";
 import Hero from "~/components/widgets/HeroServices";
 import Testimonials from "~/components/widgets/Testimonials";
+import { contactHome } from "~/shared/data/pages/home.data";
 import {
     callToActionServices,
     contentServicesOne,
@@ -28,6 +30,7 @@ const page = () => {
             <Content {...contentServicesOne} />
             <Content {...contentServicesTwo} />
             <CallToAction {...callToActionServices} />
+            <Contact {...contactHome} />
         </>
     )
 }

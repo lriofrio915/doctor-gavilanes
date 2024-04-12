@@ -1,6 +1,8 @@
 import md from 'markdown-it';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
+import { Contact } from '~/components/widgets/Contact';
+import { contactHome } from '~/shared/data/pages/home.data';
 
 import { findPostBySlug, findLatestPosts } from '~/utils/posts';
 
@@ -63,6 +65,7 @@ export default async function Page({ params }) {
                         }).render(post.content),
                     }}
                 />
+                <Contact {...contactHome} />
             </article>
         </section>
     );

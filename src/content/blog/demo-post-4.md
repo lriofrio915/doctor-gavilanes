@@ -9,7 +9,7 @@ tags: [markdown, blog]
 
 Definir el aneurisma verdadero de la arteria femoral, identificar los factores que nos podrían aumentar el riesgo de desarrollarlo, así también como conocer los métodos diagnósticos para valorar su extensión y tratamiento. Los aneurismas verdaderos de la arteria femoral son una patología poco frecuente, en su mayor porcentaje son asintomáticos.
 
-## <a name="Headings"></a>Descipción
+## <a name="Headings"></a>Descripción
 
 Se expone un caso de un paciente masculino de 80 años, con aneurisma no roto de arteria femoral común derecha, diagnosticado de manera incidental, se decide su ingreso programado para resolución quirúrgica.
 Se trata de una patología poco frecuente, por lo que se debe realizar el diagnóstico de manera oportuna para brindar un tratamiento precoz. Al mismo tiempo se debe efectuar un rastreo para excluir aneurismas simultáneos. El tratamiento electivo es quirúrgico.

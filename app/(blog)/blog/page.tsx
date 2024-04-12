@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Contact } from '~/components/widgets/Contact';
+import { contactHome } from '~/shared/data/pages/home.data';
 import { findLatestPosts } from '~/utils/posts';
 
 export const metadata: Metadata = {
@@ -16,7 +18,7 @@ const page = async () => {
                     Blog
                 </h1>
             </header>
-            <div className="grid grid-cols-1 gap-6  p-4 md:p-0 lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2">
                 {posts.map(({ slug, title, image }: { slug: string, title: string, image: string }) => (
                     <div key={slug} className="flex flex-col overflow-hidden rounded-xl border border-gray-200 shadow-lg">
                         <Link href={`/${slug}`}>
@@ -26,6 +28,7 @@ const page = async () => {
                     </div>
                 ))}
             </div>
+            <Contact {...contactHome} />
         </section>
     );
 }
