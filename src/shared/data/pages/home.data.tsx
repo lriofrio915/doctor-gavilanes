@@ -8,7 +8,7 @@ import { HeroProps, SocialProofProps, FeaturesProps, ContentProps, TestimonialsP
 import cirugiaLogo from '~/assets/images/cirugia-logo.png';
 import doctorLogo from '~/assets/images/doctor-logo.png';
 import estetoscopioLogo from '~/assets/images/estetoscopio-logo.png';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/Hero.png';
 import hospitalLogo from '~/assets/images/hospital-logo.png';
 import doctorImg from '~/assets/images/hero5.png';
 import taliaTestimonio from '~/assets/images/taliaTestimonio.jpg';
@@ -166,7 +166,7 @@ export const contentHomeTwo: ContentProps = {
     },
     hasBackground: true,
     content:
-        'Tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamos en el cuidado integral',
+        'Tu salud vascular es nuestra prioridad. Nuestros diagnosticos son precisos y los tratamientos personalizados, utilizamos tecnología de vanguardia y nos enfocamos en el cuidado integral.',
     items: [
         {
             title: 'Más de 10 años de experiencia en hospitales de prestigio.',
@@ -184,7 +184,7 @@ export const contentHomeTwo: ContentProps = {
             title: 'Trabajamos con técnicas mínimamente invasivas.',
         },
         {
-            title: 'Somos expertos en el manejo de varices.',
+            title: 'Somos expertos en el manejo de várices.',
         },
     ],
     image: {
@@ -288,8 +288,8 @@ export const faqs2Home: FAQsProps = {
             description: `Los síntomas de un aneurisma pueden variar dependiendo de su ubicación, pero pueden incluir dolor repentino e intenso en el área afectada, latidos anormales, dolor abdominal o en el pecho. Se pueden utilizar pruebas de diagnóstico como ecografías, tomografías computarizadas (TC) o resonancias magnéticas (RM) para confirmar la presencia de un aneurisma.`,
         },
         {
-            title: "¿Cómo se tratan las varices y cuándo debo considerar la cirugía?",
-            description: `El tratamiento de las varices puede incluir cambios en el estilo de vida, como el ejercicio regular y elevar las piernas, así como el uso de medias de compresión. En casos más graves, pueden realizarse procedimientos médicos como la escleroterapia o la ablación endovenosa. La cirugía puede considerarse si los síntomas son graves o si hay complicaciones como úlceras o trombosis.`,
+            title: "¿Cómo se tratan las várices y cuándo debo considerar la cirugía?",
+            description: `El tratamiento de las várices puede incluir cambios en el estilo de vida, como el ejercicio regular y elevar las piernas, así como el uso de medias de compresión. En casos más graves, pueden realizarse procedimientos médicos como la escleroterapia o la ablación endovenosa. La cirugía puede considerarse si los síntomas son graves o si hay complicaciones como úlceras o trombosis.`,
         },
         {
             title: "¿Qué es una trombosis venosa profunda (TVP) y cómo se previene?",

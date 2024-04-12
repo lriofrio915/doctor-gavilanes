@@ -83,7 +83,7 @@ export const features2Services: FeaturesProps = {
         {
             title: 'Puerto subcutáneo',
             description:
-                'Somos expertos en la colocación de puertos subcutáneos con técnicas mínimamente invasivas en pacientes pdiátricos y adultos.',
+                'Somos expertos en la colocación de puertos subcutáneos con técnicas mínimamente invasivas en pacientes pediátricos y adultos.',
             icon: IconHospitalCircle,
         },
     ],
