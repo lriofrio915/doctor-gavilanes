@@ -1,7 +1,7 @@
 module.exports.SITE = {
     name: 'Dr. Gavilanes',
 
-    origin: 'https://doctor-gavilanes.vercel.app',
+    origin: 'https://patriciogavilanesc.vercel.app',
     basePathname: '/',
     trailingSlash: false,
 

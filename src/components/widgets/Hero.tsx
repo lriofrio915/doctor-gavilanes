@@ -29,7 +29,7 @@ const Hero = ({ title, subtitle, tagline, callToAction, image }: HeroProps) => {
                         </div>
                     </div>
                     {image && (
-                        <div className="relative m-auto max-w-5xl mb-2 md:mt-[-10px] lg:mt-[-40px] xl:mt-[-50px]">
+                        <div className="relative m-auto max-w-5xl mb-2 md:mt-[-10px] ">
                             <Image
                                 className="mx-auto h-auto w-full rounded-md"
                                 src={image.src}
