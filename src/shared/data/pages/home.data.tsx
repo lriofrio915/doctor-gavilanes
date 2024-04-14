@@ -95,30 +95,10 @@ export const featuresHome: FeaturesProps = {
     },
     items: [
         {
-            title: 'Anomalías Vasculares en Niños',
-            description:
-                'Las anomalías vasculares pueden ser un reto, pero con el tratamiento adecuado, ¡es posible su...',
-            icon: IconFriends,
-            callToAction: {
-                text: 'Leer más',
-                href: '/servicios',
-            },
-        },
-        {
-            title: 'Tratamiento de Várices Pélvicas',
+            title: 'Tratamiento con Endoláser',
             description:
                 'Endoláser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdomi...',
             icon: IconWoman,
-            callToAction: {
-                text: 'Leer más',
-                href: '/servicios',
-            },
-        },
-        {
-            title: 'Enfermedad Arterial Periférica',
-            description:
-                '¿Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias d...',
-            icon: IconStretching,
             callToAction: {
                 text: 'Leer más',
                 href: '/servicios',
@@ -135,10 +115,30 @@ export const featuresHome: FeaturesProps = {
             },
         },
         {
+            title: 'Enfermedad Arterial Periférica',
+            description:
+                '¿Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias d...',
+            icon: IconStretching,
+            callToAction: {
+                text: 'Leer más',
+                href: '/servicios',
+            },
+        },
+        {
             title: 'Pie diabético',
             description:
                 "El pie diabético aparece cuando existe niveles inadecuados de glucosa en la sangre y otr...",
             icon: IconClipboardHeart,
+            callToAction: {
+                text: 'Leer más',
+                href: '/servicios',
+            },
+        },
+        {
+            title: 'Anomalías Vasculares en Niños',
+            description:
+                'Las anomalías vasculares pueden ser un reto, pero con el tratamiento adecuado, ¡es posible su...',
+            icon: IconFriends,
             callToAction: {
                 text: 'Leer más',
                 href: '/servicios',

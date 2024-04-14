@@ -52,38 +52,38 @@ export const features2Services: FeaturesProps = {
     },
     items: [
         {
-            title: 'Anomalías Vasculares en Niños',
-            description: 'Las anomalías vasculares pueden ser un reto, pero con el tratamiento adecuado, ¡es posible superarlas!.',
-            icon: IconFriends,
-        },
-        {
-            title: 'Tratamiento de Várices Pélvicas',
+            title: 'Tratamiento con Endoláser',
             description:
-                'Endoláser para tratar los cordones venosos dilatados localizados en el interior de la cavidad abdominal que rodean al útero y los ovarios.',
+                'La presencia de várices en la piernas, ocasiones dolor, calambres, sensación de pesadez, al momento existen métodos mínimamente invasivos para su tratamiento como el láser y la radiofrecuencia, con rápida recuperación del paciente.',
             icon: IconWoman,
-        },
-        {
-            title: 'Enfermedad Arterial Periférica',
-            description:
-                '¿Sientes dolor al caminar, sensación de frialdad y pérdida de pulso? Es posible que las arterias de tus extremidades estén bloquedas.',
-            icon: IconStretching,
         },
         {
             title: 'Trombosis Venosa Profunda',
             description:
-                'Este mal silencioso puede ser mortal si no se trata a tiempo. Acude a una cita si tienes hinchazón en las piernas, calambres en la pantorilla.',
+                'La presencia de trombos en las venas del sistema venoso profundo puede ser mortal si no se trata a tiempo. Si tienes hinchazón y dolor en tus piernas acude a la cita pronto.',
             icon: IconEmergencyBed,
         },
         {
-            title: 'Pie diabético',
+            title: 'Enfermedad Arterial Periférica',
             description:
-                "El pie diabético aparece cuando existe niveles inadecuados de glucosa en la sangre y otros factores que concurren con frecuencia en personas con diabetes.",
+                '¿Sientes dolor al caminar, sensación de frialdad y palidez en tus piernas? Es posible que las arterias de tus extremidades inferiores estén obstruidas.',
+            icon: IconStretching,
+        },
+        {
+            title: 'Pie Diabético',
+            description:
+                "Aparece cuando tienes úlceras, infección , alteración en los nervios (neuropatía) y vasos arteriales con diversos grados de obstrucción (enfermedad arterial periférica) en los pies de los pacientes con diabetes.",
             icon: IconClipboardHeart,
+        },
+        {
+            title: 'Anomalías Vasculares en Niños',
+            description: 'Las anomalías vasculares (hemangiomas, malformaciones arteriales, venosas, linfangiomas) pueden ser un reto, pero con el tratamiento adecuado, ¡es posible superarlas!.',
+            icon: IconFriends,
         },
         {
             title: 'Puerto subcutáneo',
             description:
-                'Somos expertos en la colocación de puertos subcutáneos con técnicas mínimamente invasivas en pacientes pediátricos y adultos.',
+                'También conocido como port-a-cath, útil para el paso de medicamentos (quimioterapia) y extracción de muestras. Somos expertos en la colocación de puertos subcutáneos con técnicas mínimamente invasivas en pacientes pediátricos y adultos.',
             icon: IconHospitalCircle,
         },
     ],
@@ -125,7 +125,7 @@ export const contentServicesTwo: ContentProps = {
     id: 'contentOne-on-services-two',
     hasBackground: false,
     content:
-        'Las varices pélvicas aparecen con frecuencia en mujeres que han sido madres. Los síntomas más habituales son:',
+        'Las várices pélvicas aparecen con frecuencia en mujeres que han sido madres. Los síntomas más habituales son:',
     items: [
         {
             title: 'Dolor pélvico en la parte del abdomen.',
