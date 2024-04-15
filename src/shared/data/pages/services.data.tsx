@@ -54,7 +54,7 @@ export const features2Services: FeaturesProps = {
         {
             title: 'Tratamiento con Endoláser',
             description:
-                'La presencia de várices en la piernas, ocasiones dolor, calambres, sensación de pesadez, al momento existen métodos mínimamente invasivos para su tratamiento como el láser y la radiofrecuencia, con rápida recuperación del paciente.',
+                'La presencia de várices en las piernas ocasiona dolor, calambres, sensación de pesadez, al momento existen métodos mínimamente invasivos para su tratamiento como el láser y la radiofrecuencia, con rápida recuperación del paciente.',
             icon: IconWoman,
         },
         {

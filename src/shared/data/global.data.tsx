@@ -2,6 +2,7 @@ import {
     IconBrandFacebook,
     IconBrandInstagram,
     IconBrandLinkedin,
+    IconBrandTiktok,
     IconBrandTwitter,
     IconChevronDown
 } from '@tabler/icons-react';
@@ -96,9 +97,9 @@ export const footerData2: FooterProps = {
         },
     ],
     socials: [
-        { label: 'Twitter', icon: IconBrandTwitter, href: 'https://twitter.com/CVascular_PG' },
-        { label: 'Instagram', icon: IconBrandInstagram, href: 'https://www.instagram.com/cirujano_vascular_y_angiologo/' },
-        { label: 'Facebook', icon: IconBrandFacebook, href: 'https://www.facebook.com/patricio.gavilanes.18' },
+        { label: 'Twitter', icon: IconBrandTiktok, href: 'https://www.tiktok.com/@medicinavascular?_t=8lXHRcdBgen&_r=1' },
+        { label: 'Instagram', icon: IconBrandInstagram, href: 'https://www.instagram.com/cirujanovascularyendovascular?igsh=MXVxeWYwNWlmeDIwaQ%3D%3D&utm_source=qr' },
+        { label: 'Facebook', icon: IconBrandFacebook, href: 'https://www.facebook.com/medicinavascularpg?mibextid=LQQJ4d' },
         { label: 'LinkedIn', icon: IconBrandLinkedin, href: 'https://www.linkedin.com/in/patricio-gavilanes-1b1849274/' },
     ],
     footNote: (
